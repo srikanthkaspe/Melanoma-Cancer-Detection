@@ -1,4 +1,4 @@
-# Melanoma Cancer Detection
+# MelanomaCancerDetection
 # Melanoma Cancer Detection Using CNN
 > Melanoma is a dangerous type of skin cancer that develops from melanocytes, the cells that produce melanin, the pigment giving skin its color. It can grow rapidly and spread to other parts of the body if not detected and treated early.
 
