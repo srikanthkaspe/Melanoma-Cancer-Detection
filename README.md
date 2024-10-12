@@ -20,18 +20,19 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 
 ## Conclusions
-- Conclusion 1: Model 1 exhibits a Training Accuracy of 62.10% and a Validation Accuracy of 53.91%, which are nearly identical yet significantly low, suggesting underfitting.
-- Conclusion 2: Model 2, trained on Augmented Data, shows a Training Accuracy of 51.95% and a Validation Accuracy of 50.78%, which are quite similar, as are the losses. However, the accuracies are low, indicating the model may require additional epochs and adjustments for class imbalance.
-- Conclusion 3: Model 3, trained on data with corrected class imbalance, achieves a Training Accuracy of 90.52% and a Validation Accuracy of 82.03%, which are closely matched. The proximity of training and validation losses indicates a good fit, with the model successfully classifying images with an 82% Validation Accuracy.
+- Conclusion 1: Model 1 exhibits a Training Accuracy of 20.64% and a Validation Accuracy of 20.58%, which are nearly identical yet significantly low, suggesting underfitting.
+- Conclusion 2: Model 2, trained on Augmented Data, shows a Training Accuracy of 55.24% and a Validation Accuracy of 53.69%, which are quite similar, as are the losses. However, the accuracies are low, indicating the model may require additional epochs and adjustments for class imbalance.
+- Conclusion 3: Model 3, trained on data with corrected class imbalance, achieves a Training Accuracy of 92.76% and a Validation Accuracy of 86.04%, which are closely matched. The proximity of training and validation losses indicates a good fit, with the model successfully classifying images with an 82% Validation Accuracy.
 
 
 ## Technologies Used
-- Tensorflow- version 2.17.0
-- Keras     - version 3.4.1
-- Pandas    - version 2.1.4
-- Augmentor - version 0.2.12
-- Numpy     - version 1.26.4
-- SNS		- version 0.13.1
+
+- TensorFlow version: 2.17.0
+- Keras version: 3.4.1
+- Pandas version: 2.2.2
+- Augmentor version: 0.2.12
+- NumPy version: 1.26.4
+- Seaborn version: 0.13.2
 
 
 ## Acknowledgements
